@@ -1,6 +1,6 @@
-/*
-let a = prompt('a?', '');
+let a = parseInt(prompt('a?', ''));
 
+/*
 if (a == 0) {
     alert(0);
 }
@@ -14,17 +14,15 @@ if (a == 2 || a == 3) {
 }
 */
 
-
-let a = parseInt(prompt('Nhập số a',''));
-switch(a){
+switch (a) {
     case 0:
-    alert('0');
-    break;
+        alert(0);
+        break;
     case 1:
-    alert('1');
-    break;
+        alert(1);
+        break;
     case 2:
     case 3:
-    alert('2,3')
-        break
+        alert('2,3');
+        break;
 }
